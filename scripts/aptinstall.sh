@@ -41,4 +41,5 @@ install figlet
 install lolcat
 
 #mine
-x11vnc
+install x11vnc
+
