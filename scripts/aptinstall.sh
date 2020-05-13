@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo add-apt-repository ppa:kubuntu-ppa/backports
+#sudo add-apt-repository ppa:kubuntu-ppa/backports
 sudo apt update && sudo apt full-upgrade -y
 
 function install {
@@ -15,11 +15,11 @@ function install {
 }
 
 # Basics
-install awscli
-install chromium-browser
+#install awscli
+#install chromium-browser
 install curl
 install dialog
-install exfat-utils
+#install exfat-utils
 install file
 install git
 install htop
@@ -39,3 +39,6 @@ install optipng
 # Fun stuff
 install figlet
 install lolcat
+
+#mine
+x11vnc

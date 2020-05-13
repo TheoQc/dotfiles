@@ -14,9 +14,7 @@ function install {
   name="${1}"
   code --install-extension ${name} --force
 }
-install batisteo.vscode-django
 install be5invis.vscode-custom-css
-install bibhasdn.django-html
 install coenraads.bracket-pair-colorizer
 install davidanson.vscode-markdownlint
 install emmanuelbeziat.vscode-great-icons
@@ -32,7 +30,6 @@ install neilding.language-liquid
 install redhat.vscode-yaml
 install rido3.wordcount
 install streetsidesoftware.code-spell-checker
-install victoriadrake.kabukicho
 install vscode-icons-team.vscode-icons
 install yzhang.markdown-all-in-one
 install zxh404.vscode-proto3

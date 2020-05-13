@@ -29,8 +29,8 @@ alias startenv='source env/bin/activate && which python3'
 alias stopenv='deactivate'
 
 # Use programs without a root-equivalent group
-alias docker='sudo docker'
-alias prtn='sudo protonvpn'
+#alias docker='sudo docker'
+#alias prtn='sudo protonvpn'
 
 # Show contents of dir after action
 function cd () {
@@ -71,7 +71,7 @@ function hugotheme () {
 
 # Add GitLab remote to cwd git
 function glab () {
-    git remote set-url origin --add git@gitlab.com:victoriadrake/"${PWD##*/}".git
+    git remote set-url origin --add git@gitlab.com:theoqc/"${PWD##*/}".git
     git remote -v
 }
 
@@ -81,8 +81,8 @@ function mlc () {
 }
 
 # Go
-export PATH=$PATH:/usr/local/bin:/usr/local/go/bin:~/.local/bin:$GOPATH/bin
-export GOPATH=~/go
+#export PATH=$PATH:/usr/local/bin:/usr/local/go/bin:~/.local/bin:$GOPATH/bin
+#export GOPATH=~/go
 
 # Vim for life
 export EDITOR=/usr/bin/vim
@@ -157,6 +157,6 @@ if [[ $TERM != linux && ! $PROMPT_COMMAND =~ _update_ps1 ]]; then
     PROMPT_COMMAND="_update_ps1; $PROMPT_COMMAND"
 fi
 
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+#export NVM_DIR="$HOME/.nvm"
+#[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+#[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion

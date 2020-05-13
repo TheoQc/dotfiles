@@ -6,9 +6,6 @@
     "window.zoomLevel": -1,
     "editor.autoClosingBrackets": true,
     "html.autoClosingTags": false,
-    "python.linting.pylintArgs": [
-        "--load-plugins=pylint_django"
-    ],
     "python.linting.flake8Enabled": true,
     "python.linting.flake8Args": [
         "--ignore=E501,W503"
@@ -39,8 +36,7 @@
     "beautify.language": {
         "html": [
             "htm",
-            "html",
-            "django-html"
+            "html"
         ],
         "css": [
             "sass",
@@ -133,7 +129,6 @@
     "window.closeWhenEmpty": true,
     "window.newWindowDimensions": "inherit",
     "files.autoSave": "afterDelay",
-    "workbench.colorTheme": "Kabukichō",
     "sasslint.enable": false,
     "go.useLanguageServer": true,
     "[javascript]": {
