@@ -52,10 +52,11 @@ nsnake
 moon-buggy
 frotz                 # text adventure
 crawl                 # dungeon crawler stone soup
+frotz                 # runner for zork style games
 
 #mine
 install x11vnc
-install fzf           #fuzzy file search
-install inotify-tools #watch directory changes
-install screenfetch   #info like motd
+install fzf           # fuzzy file search
+install inotify-tools # watch directory changes
+install screenfetch   # info like motd
 

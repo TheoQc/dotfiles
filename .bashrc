@@ -28,6 +28,11 @@ alias mkenv='python3 -m venv env'
 alias startenv='source env/bin/activate && which python3'
 alias stopenv='deactivate'
 
+alias zork1='frotz ~/games/zork/ZORK1.DAT'
+alias zork2='frotz ~/games/zork/ZORK2.DAT'
+alias zork3='frotz ~/games/zork/ZORK3.DAT'
+alias starwars='telnet Towel.blinkenlights.nl'
+
 # Use programs without a root-equivalent group
 #alias docker='sudo docker'
 #alias prtn='sudo protonvpn'
