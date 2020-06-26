@@ -1,0 +1,3 @@
+#!/bin/sh
+
+figlet -k -f slant $(hostname) | /usr/games/lolcat -f

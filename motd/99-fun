@@ -1,0 +1,10 @@
+#!/bin/sh
+
+# meteo
+ansiweather -l Montreal,CA -s true -d true
+ansiweather -l Annecy,FR -s true -d true
+echo
+
+# some colorful wisdom
+/usr/games/fortune | /usr/games/lolcat -f
+echo
