@@ -134,3 +134,4 @@ nmap <Leader>g :tabnew\|read !grep -Hnr '<C-R><C-W>'<CR>
 
 " Theo section
 command W :execute ':silent w !sudo tee % > /dev/null' | :edit!
+set nrformats=

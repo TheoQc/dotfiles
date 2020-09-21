@@ -1,17 +1,30 @@
 - vnc x11vnc
-- dot files
-- transmission
-- ftp
-    - turn off ftp
-    - change sftpuser
-    - nologin user
-- starwars to alias
-- samba
-    - or nfs
 - manual queue in mikrotik
 
 suggestions to check:
-- nginx
+- pfSense
+- piHole
+- Unbound
+- openVPN
+- influxDB
+- Home Assistant
+- openmediavault
+- proxmox
+- azuracast
+- yacht
+- cloudflare
+- bookstack
+- rancher
+- nzbget
+- portainer pop
+- family portal
+- sonarr
+- radarr
+- dashboard
+- dashmachine
+- heimdall
+
+- nginx or Traefik  (web reverse proxy)
 - owncloud or nextcloud
 -git
 - webmin
@@ -22,24 +35,32 @@ suggestions to check:
 - wormhole
 - conjure-up
 - prometheus
-
+- sonarr/radarr
+- SABnzbd ? (newsgroup)
 - haskell
+- Jellyfin + PhoenixAdult 
+- Authelia (2 factor auth)
+
 
 - motd more fun
-- vim-adventures remove all links ping home
-- fail2jail ou qqch comme ça
+- vim-adventures 
+    - remove all links ping home
+    - run as docker
+- fail2jail 
 - port knock 
+- second plex server as docker
+
 
 lheureux
 - port des apps ou niveau router
-- simple queue marche pas :(
-- vnc pas router, juste tunnel, c'est bon ou mieux changer port
-- 
+- microtik simple queue marche pas :(
 
 update gnome params
 gsettings list-recursively | grep 'keyboard'.
 then
 gsettings set
+
+Cool-Retro-Term pour une console avec du style
 
 -----------
 did
@@ -55,9 +76,8 @@ did
     ForceCommand internal-sftp
 - samba
     - apt samba
-    - todo
-        - interface limit to vpn
-        - acccess download
+    - interface limit to vpn
+- smartd setup
         
 
 
