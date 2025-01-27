@@ -13,3 +13,6 @@ function install {
 
 # Games
 install ascii-patrolW
+
+# Utils
+install cargo       # snap for rust packages

@@ -1,8 +1,5 @@
 #!/bin/bash
-
-#sudo add-apt-repository ppa:kubuntu-ppa/backports
-sudo apt update && sudo apt full-upgrade -y
-
+W
 function install {
   which $1 &> /dev/null
 
@@ -23,6 +20,7 @@ install dialog
 install file
 install git
 install htop
+install btop
 install jq
 install nmap
 install openvpn
@@ -31,12 +29,15 @@ install tree
 install vim
 install xclip
 install smartmontools # hd temp
-install fail2ban  # security
+install fail2ban      # security
+install locate        # faster to find files
+install unrar
 
 # Image processing
 #install gimp
 #install jpegoptim
 #install optipng
+install viu            #cli image viewer
 
 # Fun stuff
 install figlet
@@ -44,6 +45,7 @@ install lolcat
 install fortune
 install cowsay
 install cmatrix
+install hollywood
 
 # Games
 bastet                # tetris
@@ -56,17 +58,24 @@ crawl                 # dungeon crawler stone soup
 frotz                 # runner for zork style games, will need .dat after
 cataclysm-dda-curses  # top down zombie
 dwarf-fortress        # big and complex
+bsdgames              # many games, including adventure
 
 #mine
-install x11vnc
+#install x11vnc
 install fzf           # fuzzy file search
 install inotify-tools # watch directory changes
+install update-motd   # easier update of motd
 install screenfetch   # info like motd
 install neofetch      # logo and info
 install docker
 
 #network monitoring
-install vnstat
-install iftop
-install iptraf-ng
-install bmon
+install bmon          # quickly see which interface has most traffic
+install nethogs       # per process
+install cbm           # which interface, and associated ip
+install iptraf-ng     # per transport protocol;
+install vnstat        # aggregated view of main interfaces
+install iftop         # per destination reversed dns
+install darkstat      # (BAD) complex to web result, not sold on it
+install nload         # (BAD) per interface view
+install speedtest-cli # use ookla thing
