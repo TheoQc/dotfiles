@@ -135,4 +135,4 @@ alias zork3='frotz ~/games/zork/ZORK3.DAT'
 alias starwars='telnet Towel.blinkenlights.nl'
 
 # MOTD if installed at right place
-~/git/dotfiles/fancy-motd/motd.sh
+~/motd/motd.sh

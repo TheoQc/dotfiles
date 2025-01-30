@@ -29,8 +29,11 @@ sudo apt autoremove -y
 ./config.sh
 
 # nicer message of the day
-sudo cp motd/* /etc/update-motd.d/
-sudo update-motd
+mkdir ~/motd
+mkdir ~/motd/modules
+cp ../fancy-motd/motd.sh ~/motd/
+cp ../fancy-motd/config.sh.example ~/motd/config.sh
+cp -R ../fancy-motd/modules ~/motd/modules
 
 # done
 figlet "Jobs done !" | lolcat
