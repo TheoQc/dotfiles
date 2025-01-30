@@ -4,8 +4,9 @@ Forked set-up scripts and config from this article in order to setup my machine 
 
 Still a lot to do in order to setup raspbery pi intependently than ubuntu.
 
-## Add a simple backup
+## install
 
-need to add a cron job to update git when modified
+git clone --recurse-submodules https://github.com/TheoQc/dotfiles.git
+sudo ./scripts/setup.sh
 
 Motd is from several people, including :https://github.com/bcyran/fancy-motd/blob/master/README.md

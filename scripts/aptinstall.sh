@@ -48,17 +48,17 @@ install cmatrix
 install hollywood
 
 # Games
-bastet                # tetris
-nethack-console
-zangband              # rogue like
-nudoku                # sudoku
-nsnake
-moon-buggy
-crawl                 # dungeon crawler stone soup
-frotz                 # runner for zork style games, will need .dat after
-cataclysm-dda-curses  # top down zombie
-dwarf-fortress        # big and complex
-bsdgames              # many games, including adventure
+install bastet                # tetris
+install nethack-console
+install zangband              # rogue like
+install nudoku                # sudoku
+install nsnake
+install moon-buggy
+install crawl                 # dungeon crawler stone soup
+install frotz                 # runner for zork style games, will need .dat after
+install cataclysm-dda-curses  # top down zombie
+install dwarf-fortress        # big and complex
+install bsdgames              # many games, including adventure
 
 #mine
 #install x11vnc

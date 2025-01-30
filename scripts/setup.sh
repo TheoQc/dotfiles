@@ -10,13 +10,13 @@ fi
 sudo apt update && sudo apt full-upgrade -y
 
 # get standard repository programs
-./aptinstall.sh
+sudo ./aptinstall.sh
 
 # get more complex snap repository programs
-./snapinstall.sh
+sudo ./snapinstall.sh
 
 # get rust packages
-./cargoinstall.sh
+sudo ./cargoinstall.sh
 
 # Run all programs/ install scripts
 for f in programs/*.sh; do bash "$f" -H; done
@@ -26,7 +26,7 @@ sudo apt upgrade -y
 sudo apt autoremove -y
 
 # Copy home configs
-./config.sh
+sudo ./config.sh
 
 # nicer message of the day
 mkdir ~/motd
