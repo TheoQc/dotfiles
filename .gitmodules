@@ -1,3 +1,6 @@
 [submodule "powerline-shell"]
 	path = powerline-shell
 	url = git@github.com:theoqc/powerline-shell.git 
+[submodule "fancy-motd"]
+	path = fancy-motd
+	url = https://github.com/bcyran/fancy-motd.git
