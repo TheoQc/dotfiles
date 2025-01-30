@@ -14,11 +14,11 @@ Plugin 'VundleVim/Vundle.vim'
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
 " use plugin on GitHub repo
+Plugin 'airblade/vim-gitgutter'
+Plugin 'jez/vim-colors-solarized'
 Plugin 'tpope/vim-fugitive'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
-Plugin 'junegunn/fzf'
-Plugin 'junegunn/fzf.vim'
 " use plugin from http://vim-scripts.org/vim/scripts.html
 " Plugin 'L9'
 " use Git plugin not hosted on GitHub
@@ -131,7 +131,3 @@ nmap <Leader>b :!echo <C-R><C-W> \| base64 -d<CR>
 
 " grep recursively for word under cursor
 nmap <Leader>g :tabnew\|read !grep -Hnr '<C-R><C-W>'<CR>
-
-" Theo section
-command W :execute ':silent w !sudo tee % > /dev/null' | :edit!
-set nrformats=

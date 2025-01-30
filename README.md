@@ -7,3 +7,5 @@ Still a lot to do in order to setup raspbery pi intependently than ubuntu.
 ## Add a simple backup
 
 need to add a cron job to update git when modified
+
+Motd is from several people, including :https://github.com/bcyran/fancy-motd/blob/master/README.md

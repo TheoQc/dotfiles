@@ -1,42 +1,42 @@
 #!/bin/bash
-W
+
 function install {
   which $1 &> /dev/null
 
   if [ $? -ne 0 ]; then
-    echo "--- Installing apt: ${1}... ---"
+    echo "Installing: ${1}..."
     sudo apt install -y $1
   else
-    echo "--- Already installed: ${1} ---"
+    echo "Already installed: ${1}"
   fi
 }
 
 # Basics
-#install awscli
-#install chromium-browser
 install curl
 install dialog
-#install exfat-utils
 install file
 install git
 install htop
 install btop
 install jq
+install yq
 install nmap
 install openvpn
 install tmux
 install tree
 install vim
 install xclip
+install wget
 install smartmontools # hd temp
 install fail2ban      # security
 install locate        # faster to find files
 install unrar
 
+# fancy-motd
+install lm-sensors
+install bc
+
 # Image processing
-#install gimp
-#install jpegoptim
-#install optipng
 install viu            #cli image viewer
 
 # Fun stuff
@@ -67,7 +67,6 @@ install inotify-tools # watch directory changes
 install update-motd   # easier update of motd
 install screenfetch   # info like motd
 install neofetch      # logo and info
-install docker
 
 #network monitoring
 install bmon          # quickly see which interface has most traffic
@@ -79,3 +78,4 @@ install iftop         # per destination reversed dns
 install darkstat      # (BAD) complex to web result, not sold on it
 install nload         # (BAD) per interface view
 install speedtest-cli # use ookla thing
+

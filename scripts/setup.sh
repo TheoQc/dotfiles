@@ -15,17 +15,18 @@ sudo apt update && sudo apt full-upgrade -y
 # get more complex snap repository programs
 ./snapinstall.sh
 
+# get rust packages
+./cargoinstall.sh
+
 # Run all programs/ install scripts
 for f in programs/*.sh; do bash "$f" -H; done
 
 # Get all upgrades
 sudo apt upgrade -y
+sudo apt autoremove -y
 
-# install docker containers
-./dockerinstall.sh
-
-# See our bash changes
-source ~/.bashrc
+# Copy home configs
+./config.sh
 
 # nicer message of the day
 sudo cp motd/* /etc/update-motd.d/
